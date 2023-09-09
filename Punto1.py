@@ -1,7 +1,7 @@
-print("Ingresa la fila actual del caballo (1-8): ")
+print("Ingresa la fila del caballo (1-8): ")
 fila_caballo = int(input())
 
-print("Ingresa la columna actual del caballo (1-8): ")
+print("Ingresa la columna del caballo (1-8): ")
 columna_caballo = int(input())
 
 if fila_caballo < 1 or fila_caballo > 8 or columna_caballo < 1 or columna_caballo > 8:
